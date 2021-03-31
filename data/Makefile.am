@@ -25,7 +25,7 @@ $(dbusconf_DATA): $(dbusconf_in_files) Makefile
 # ----------------------------------------------------------------------------------------------------
 
 if POLKIT_AUTHFW_PAM
-pamdir = $(sysconfdir)/pam.d
+pamdir = $(datadir)/pam.d
 pam_DATA = polkit-1
 endif
 
